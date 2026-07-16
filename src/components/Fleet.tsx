@@ -29,7 +29,7 @@ export default function Fleet() {
     {
       name: "Toyota Etios",
       category: "Comfort Sedan",
-      image: "/dzire.png",
+      image: "/etios.jpg",
       capacity: "4+1 Seats",
       ac: "AC Available",
       luggage: "3 Bags",
@@ -48,7 +48,7 @@ export default function Fleet() {
     {
       name: "Kia Carens",
       category: "Premium Family MPV",
-      image: "/ertiga.png",
+      image: "/kia-carens.jpg",
       capacity: "6+1 Seats",
       ac: "Automatic AC",
       luggage: "4 Bags",
