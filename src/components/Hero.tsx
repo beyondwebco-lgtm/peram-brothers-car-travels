@@ -156,7 +156,7 @@ export default function Hero() {
               {/* Luxury Car Image Frame */}
               <div className="w-full h-full relative rounded-[2rem] overflow-hidden border border-gray-100 shadow-xl bg-gray-50">
                 <Image
-                  src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=800"
+                  src="/innova-crysta.webp"
                   alt="Peram Brothers Premium White Cars"
                   fill
                   sizes="(max-w-7xl) 100vw, 50vw"

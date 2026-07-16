@@ -20,7 +20,7 @@ export default function Fleet() {
     {
       name: "New Swift Dzire",
       category: "Compact Sedan",
-      image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=600",
+      image: "/dzire.png",
       capacity: "4+1 Seats",
       ac: "AC Available",
       luggage: "2 Bags",
@@ -29,7 +29,7 @@ export default function Fleet() {
     {
       name: "Toyota Etios",
       category: "Comfort Sedan",
-      image: "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=600", // using consistent high-quality white sedan visuals
+      image: "/dzire.png",
       capacity: "4+1 Seats",
       ac: "AC Available",
       luggage: "3 Bags",
@@ -38,7 +38,7 @@ export default function Fleet() {
     {
       name: "New Ertiga",
       category: "Comfort Family MPV",
-      image: "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&q=80&w=600",
+      image: "/ertiga.png",
       capacity: "6+1 Seats",
       ac: "Dual AC",
       luggage: "3 Bags",
@@ -48,7 +48,7 @@ export default function Fleet() {
     {
       name: "Kia Carens",
       category: "Premium Family MPV",
-      image: "https://images.unsplash.com/photo-1619767886558-efdc259cde1a?auto=format&fit=crop&q=80&w=600",
+      image: "/ertiga.png",
       capacity: "6+1 Seats",
       ac: "Automatic AC",
       luggage: "4 Bags",
@@ -57,7 +57,7 @@ export default function Fleet() {
     {
       name: "Toyota Innova",
       category: "Executive Touring Vehicle",
-      image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=600",
+      image: "/innova-crysta.webp",
       capacity: "7+1 Seats",
       ac: "Dual AC",
       luggage: "5 Bags",
@@ -66,7 +66,7 @@ export default function Fleet() {
     {
       name: "Toyota Innova Crysta",
       category: "Premium Luxury MPV",
-      image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=600",
+      image: "/innova-crysta.webp",
       capacity: "7+1 Seats",
       ac: "Climate Control",
       luggage: "6 Bags",
