@@ -116,16 +116,18 @@ export default function WhyChooseUs() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             {stats.map((stat, index) => (
               <div key={index} className="flex flex-col items-center">
-                <span className="text-3xl sm:text-4xl lg:text-5xl font-black mb-2 tracking-tight flex items-center justify-center">
+                <div className="flex items-baseline justify-center whitespace-nowrap text-3xl sm:text-4xl lg:text-5xl font-black mb-2 tracking-tight">
                   <CountUp
                     end={stat.value}
                     enableScrollSpy={true}
                     scrollSpyOnce={true}
                     separator=","
                   />
-                  <span>{stat.suffix}</span>
-                </span>
-                <span className="text-xs sm:text-sm font-semibold text-blue-100 uppercase tracking-widest">
+                  <span className="text-xl sm:text-2xl lg:text-3xl font-bold ml-1 text-blue-200">
+                    {stat.suffix}
+                  </span>
+                </div>
+                <span className="text-xs sm:text-sm font-semibold text-blue-100 uppercase tracking-widest text-center mt-1">
                   {stat.label}
                 </span>
               </div>
