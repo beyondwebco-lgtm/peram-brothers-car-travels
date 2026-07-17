@@ -19,7 +19,7 @@ export default function Testimonials() {
       city: "Vijayawada",
       rating: 5,
       review: "Excellent service! We booked Innova Crysta for a family trip to Hyderabad. The car was spotless, driver was extremely polite, and we reached exactly on time.",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=150",
+      image: "/face-1.jpg",
       tripDetail: "Vijayawada to Hyderabad • Innova Crysta",
     },
     {
@@ -27,7 +27,7 @@ export default function Testimonials() {
       city: "Guntur",
       rating: 5,
       review: "I regularly book their Swift Dzire for airport drops. Extremely reliable pickups and professional drivers who know all regional bypass highways. Hands down best one-way taxi fares.",
-      image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=150",
+      image: "/face-2.jpg",
       tripDetail: "Guntur to Gannavaram Airport • Swift Dzire",
     },
     {
@@ -35,7 +35,7 @@ export default function Testimonials() {
       city: "Vijayawada",
       rating: 5,
       review: "Peram Brothers provided corporate luxury cabs for our national delegates. Smooth bookings, clean digital bills, and active GPS tracking. The service was top notch and professional.",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=150",
+      image: "/face-3.jpg",
       tripDetail: "Local Business Rental • Toyota Innova",
     },
     {
@@ -43,7 +43,7 @@ export default function Testimonials() {
       city: "Hyderabad",
       rating: 5,
       review: "Booked a round trip to Vijayawada. Clean Ertiga with dual AC, very comfortable seats. The owner Mr. Nagaraju coordinated everything seamlessly. Will definitely book again.",
-      image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=150",
+      image: "/face-4.jpg",
       tripDetail: "Hyderabad ⇄ Vijayawada • New Ertiga",
     },
     {
@@ -51,7 +51,7 @@ export default function Testimonials() {
       city: "Vijayawada",
       rating: 5,
       review: "Clean car and highly disciplined driver. Booking on WhatsApp was super quick and took less than 2 minutes. Transparent billing with no hidden tolls.",
-      image: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=150",
+      image: "/face-1.jpg",
       tripDetail: "Vijayawada Outstation Trip • Toyota Etios",
     },
     {
@@ -59,7 +59,7 @@ export default function Testimonials() {
       city: "Guntur",
       rating: 5,
       review: "Excellent MPV travel experience. Our driver was punctual and drove very safely at night. The seating was perfect for my parents and kids.",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=150",
+      image: "/face-2.jpg",
       tripDetail: "Guntur to Hyderabad • Kia Carens",
     },
   ];
