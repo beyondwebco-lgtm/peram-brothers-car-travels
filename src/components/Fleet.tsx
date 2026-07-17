@@ -57,7 +57,7 @@ export default function Fleet() {
     {
       name: "Toyota Innova",
       category: "Executive Touring Vehicle",
-      image: "/innova-crysta.webp",
+      image: "/innova.jpg",
       capacity: "7+1 Seats",
       ac: "Dual AC",
       luggage: "5 Bags",

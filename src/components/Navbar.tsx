@@ -40,10 +40,14 @@ export default function Navbar() {
                 <Car className="w-6 h-6" />
               </div>
               <div className="flex flex-col">
-                <span className="text-lg font-bold tracking-tight text-dark flex items-center">
+                <span className={`text-lg font-bold tracking-tight transition-colors duration-300 flex items-center ${
+                  scrolled ? "text-dark" : "text-white"
+                }`}>
                   PERAM BROTHERS
                 </span>
-                <span className="text-[10px] text-gray-500 font-medium tracking-widest -mt-1">
+                <span className={`text-[10px] font-medium tracking-widest -mt-1 transition-colors duration-300 ${
+                  scrolled ? "text-gray-500" : "text-white/70"
+                }`}>
                   CAR TRAVELS
                 </span>
               </div>
@@ -55,7 +59,9 @@ export default function Navbar() {
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-sm font-medium text-gray-600 hover:text-primary transition-colors duration-200"
+                  className={`text-sm font-medium transition-colors duration-200 ${
+                    scrolled ? "text-gray-600 hover:text-primary" : "text-white/80 hover:text-white"
+                  }`}
                 >
                   {link.name}
                 </a>
@@ -66,9 +72,15 @@ export default function Navbar() {
             <div className="hidden lg:flex items-center space-x-4">
               <a
                 href="tel:7036281999"
-                className="flex items-center space-x-2 text-sm font-semibold text-dark hover:text-primary px-4 py-2 rounded-full border border-gray-200 hover:border-primary/50 transition-all duration-200"
+                className={`flex items-center space-x-2 text-sm font-semibold px-4 py-2 rounded-full border transition-all duration-200 ${
+                  scrolled
+                    ? "text-dark border-gray-200 hover:border-primary/50 hover:text-primary"
+                    : "text-white border-white/20 hover:border-white hover:bg-white/10"
+                }`}
               >
-                <Phone className="w-4 h-4 text-primary" />
+                <Phone className={`w-4 h-4 transition-colors duration-200 ${
+                  scrolled ? "text-primary" : "text-white"
+                }`} />
                 <span>Call Now</span>
               </a>
               <a
@@ -86,14 +98,22 @@ export default function Navbar() {
             <div className="flex items-center md:hidden space-x-3">
               <a
                 href="tel:7036281999"
-                className="p-2 rounded-full bg-blue-50 text-primary hover:bg-primary hover:text-white transition-all"
+                className={`p-2 rounded-full transition-all duration-200 ${
+                  scrolled
+                    ? "bg-blue-50 text-primary hover:bg-primary hover:text-white"
+                    : "bg-white/10 text-white hover:bg-white/25"
+                }`}
                 aria-label="Call Owner"
               >
                 <Phone className="w-4 h-4" />
               </a>
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="p-2 rounded-lg text-gray-600 hover:text-dark hover:bg-gray-100 transition-all"
+                className={`p-2 rounded-lg transition-all duration-200 ${
+                  scrolled
+                    ? "text-gray-600 hover:text-dark hover:bg-gray-100"
+                    : "text-white/80 hover:text-white hover:bg-white/10"
+                }`}
               >
                 {mobileMenuOpen ? (
                   <X className="w-6 h-6" />
