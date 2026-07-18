@@ -19,7 +19,7 @@ export default function Testimonials() {
       city: "Hyderabad",
       rating: 5,
       review: "Excellent service! The driver was punctual, the car was spotless, and the entire journey was smooth. Will definitely book again for family trips.",
-      image: "/face-1.jpg",
+      image: "/images/testimonials/review-face-1.jpg",
       tripDetail: "Hyderabad → Vijayawada • Toyota Innova Crysta",
     },
     {
@@ -27,7 +27,7 @@ export default function Testimonials() {
       city: "Vijayawada",
       rating: 5,
       review: "Booked through WhatsApp and got an instant confirmation. The driver arrived on time and the ride was very comfortable. Highly recommended.",
-      image: "/face-2.jpg",
+      image: "/images/testimonials/review-face-2.jpg",
       tripDetail: "Vijayawada → Hyderabad Airport • Kia Carens",
     },
     {
@@ -35,7 +35,7 @@ export default function Testimonials() {
       city: "Guntur",
       rating: 5,
       review: "Very professional service with transparent pricing. The AC worked perfectly and the driver drove safely throughout the trip.",
-      image: "/face-3.jpg",
+      image: "/images/testimonials/review-face-3.jpg",
       tripDetail: "Guntur → Hyderabad • Maruti Dzire",
     },
     {
@@ -43,7 +43,7 @@ export default function Testimonials() {
       city: "Hyderabad",
       rating: 5,
       review: "Our flight was delayed, but the driver patiently waited and greeted us at the airport. Great customer service and hassle-free experience.",
-      image: "/face-4.jpg",
+      image: "/images/testimonials/review-face-4.jpg",
       tripDetail: "Airport Pickup • Toyota Etios",
     },
     {
@@ -51,7 +51,7 @@ export default function Testimonials() {
       city: "Tenali",
       rating: 5,
       review: "We travelled with our family and had plenty of luggage space. The vehicle was clean, comfortable, and the journey was enjoyable.",
-      image: "/face-1.jpg",
+      image: "/images/testimonials/review-face-5.jpg",
       tripDetail: "Tenali → Hyderabad • Toyota Innova",
     },
     {
@@ -59,7 +59,7 @@ export default function Testimonials() {
       city: "Mangalagiri",
       rating: 5,
       review: "Used the cab for a full-day local trip. The driver was courteous, the car was well maintained, and the pricing was exactly as promised.",
-      image: "/face-2.jpg",
+      image: "/images/testimonials/review-face-6.jpg",
       tripDetail: "Local Rental • Maruti Ertiga",
     },
   ];
