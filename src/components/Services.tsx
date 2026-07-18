@@ -4,55 +4,31 @@ import { motion } from "framer-motion";
 import {
   Compass,
   PlaneTakeoff,
-  PlaneLanding,
   Milestone,
   Navigation,
-  RefreshCw,
-  Briefcase,
-  Users,
 } from "lucide-react";
 
 export default function Services() {
   const serviceList = [
     {
-      title: "Local Rentals",
-      description: "Hourly packages for local shopping, sight-seeing, and business meetings in Vijayawada & Guntur.",
+      title: "Local Rental Packages",
+      description: "Flexible hourly packages for local shopping, sightseeing, business meetings, and event travels in Vijayawada & Guntur.",
       icon: Compass,
     },
     {
-      title: "Airport Pickup",
-      description: "Punctual airport transfers from Vijayawada Airport (Gannavaram) directly to your destination.",
+      title: "Airport Pickup Drops",
+      description: "Punctual and hassle-free airport transfers to and from Vijayawada Airport (Gannavaram) with guaranteed on-time pickup.",
       icon: PlaneTakeoff,
     },
     {
-      title: "Airport Drop",
-      description: "Stress-free airport drops with guaranteed on-time pickup to ensure you never miss a flight.",
-      icon: PlaneLanding,
-    },
-    {
-      title: "Outstation Trips",
-      description: "Intercity outstation rides to Hyderabad, Visakhapatnam, Tirupati, Chennai, and other major cities.",
+      title: "Outstation Round Trips",
+      description: "Economical and premium outstation round trips with professional chauffeurs for long-distance family vacations.",
       icon: Milestone,
     },
     {
-      title: "One Way Trips",
-      description: "Pay for one-way distance only. Ideal for commuters traveling between Vijayawada, Guntur & Hyderabad.",
+      title: "On Way Drop Services",
+      description: "Dedicated one-way drops to Hyderabad, Guntur, Vijayawada, or any destination. Pay only for the one-way distance.",
       icon: Navigation,
-    },
-    {
-      title: "Round Trips",
-      description: "Economical multi-day round trip plans with professional drivers for long-distance family vacations.",
-      icon: RefreshCw,
-    },
-    {
-      title: "Corporate Travel",
-      description: "Premium executive car rental packages, monthly travel management, and event transfers.",
-      icon: Briefcase,
-    },
-    {
-      title: "Family Travel",
-      description: "Spacious multi-seater vehicles (Ertiga, Innova, Crysta) ensuring absolute safety and comfort for family.",
-      icon: Users,
     },
   ];
 
