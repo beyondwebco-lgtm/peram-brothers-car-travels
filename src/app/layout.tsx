@@ -49,7 +49,7 @@ export default function RootLayout({
     "name": "Peram Brothers Car Travels",
     "description": "24/7 Premium Cab and Taxi Rental Service in Vijayawada and Guntur, Andhra Pradesh.",
     "url": "https://perambrotherscartravels.com",
-    "telephone": "+917036281999",
+    "telephone": "+917095281999",
     "areaServed": [
       {
         "@type": "AdministrativeArea",

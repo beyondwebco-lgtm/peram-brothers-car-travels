@@ -71,7 +71,7 @@ export default function Navbar() {
             {/* Action Buttons */}
             <div className="hidden lg:flex items-center space-x-4">
               <a
-                href="tel:7036281999"
+                href="tel:7095281999"
                 className={`flex items-center space-x-2 text-sm font-semibold px-4 py-2 rounded-full border transition-all duration-200 ${
                   scrolled
                     ? "text-dark border-gray-200 hover:border-primary/50 hover:text-primary"
@@ -84,7 +84,7 @@ export default function Navbar() {
                 <span>Call Now</span>
               </a>
               <a
-                href="https://wa.me/917036281999?text=Hello%20Peram%20Brothers%20Car%20Travels,%20I'd%20like%20to%20inquire%20about%20booking%20a%20cab."
+                href="https://wa.me/917095281999?text=Hello%20Peram%20Brothers%20Car%20Travels,%20I'd%20like%20to%20inquire%20about%20booking%20a%20cab."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center space-x-2 text-sm font-semibold bg-emerald-600 hover:bg-emerald-500 text-white px-5 py-2.5 rounded-full shadow-xs hover:shadow-md transition-all duration-200"
@@ -97,7 +97,7 @@ export default function Navbar() {
             {/* Mobile menu button */}
             <div className="flex items-center md:hidden space-x-3">
               <a
-                href="tel:7036281999"
+                href="tel:7095281999"
                 className={`p-2 rounded-full transition-all duration-200 ${
                   scrolled
                     ? "bg-blue-50 text-primary hover:bg-primary hover:text-white"
@@ -151,14 +151,14 @@ export default function Navbar() {
               </div>
               <div className="grid grid-cols-2 gap-4 pt-4 border-t border-gray-100">
                 <a
-                  href="tel:7036281999"
+                  href="tel:7095281999"
                   className="flex items-center justify-center space-x-2 text-sm font-semibold text-dark border border-gray-200 py-3 rounded-xl hover:bg-gray-50 transition-all"
                 >
                   <Phone className="w-4 h-4 text-primary" />
                   <span>Call Now</span>
                 </a>
                 <a
-                  href="https://wa.me/917036281999?text=Hello%20Peram%20Brothers%20Car%20Travels,%20I'd%20like%20to%20inquire%20about%20booking%20a%20cab."
+                  href="https://wa.me/917095281999?text=Hello%20Peram%20Brothers%20Car%20Travels,%20I'd%20like%20to%20inquire%20about%20booking%20a%20cab."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center space-x-2 text-sm font-semibold bg-emerald-600 text-white py-3 rounded-xl hover:bg-emerald-500 transition-all"

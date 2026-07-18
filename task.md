@@ -13,6 +13,11 @@
 - [x] Implement Testimonials section (auto-scrolling Embla slider)
 - [x] Implement Contact section (owner card, calls, WhatsApp links)
 - [x] Build layout and assemble main page (layout.tsx, page.tsx, Lenis scroll)
+- [x] Update Toyota Innova photo reference in Fleet.tsx
+- [x] Swap primary and secondary numbers in components
+  - [x] Update Navbar.tsx calls/WhatsApp numbers
+  - [x] Update Hero.tsx calls/WhatsApp numbers
+  - [x] Update Fleet.tsx default WhatsApp booking links
 - [x] Add SEO assets (robots.txt, sitemap.ts, OpenGraph metadata)
 - [x] Build and verify (build validation, linting)
 - [x] Verify local dev server in the browser (Dev server active on http://localhost:3000, Playwright driver failed)

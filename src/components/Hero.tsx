@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { MessageCircle, Phone, Clock, ShieldCheck, Sparkles, MapPin, ArrowDown } from "lucide-react";
+import { MessageCircle, Phone, Clock, Compass, Navigation, Plane, Sparkles, ArrowDown } from "lucide-react";
 
 export default function Hero() {
   const heroRef = useRef<HTMLElement>(null);
@@ -73,10 +73,10 @@ export default function Hero() {
   };
 
   const trustBadges = [
-    { icon: Clock, text: "24×7 Service" },
-    { icon: ShieldCheck, text: "Verified Drivers" },
-    { icon: Sparkles, text: "Sanitized Vehicles" },
-    { icon: MapPin, text: "On-Time Pickup" },
+    { icon: Clock, text: "Local Rental Packages" },
+    { icon: Plane, text: "Airport Pickup Drops" },
+    { icon: Compass, text: "Outstation Round Trips" },
+    { icon: Navigation, text: "On Way Drop Services" },
   ];
 
   return (
@@ -146,13 +146,13 @@ export default function Hero() {
               variants={lineVariants}
               className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1] max-w-4xl"
             >
-              Reliable Cab Services in
+              PERAM BROTHER'S
             </motion.h1>
             <motion.h1
               variants={lineVariants}
               className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.1] max-w-4xl bg-gradient-to-r from-blue-400 via-blue-200 to-white bg-clip-text text-transparent"
             >
-              Vijayawada & Guntur
+              Car Travels
             </motion.h1>
           </div>
 
@@ -161,8 +161,7 @@ export default function Hero() {
             variants={subheadingVariants}
             className="text-base sm:text-xl text-gray-300 font-medium leading-relaxed max-w-3xl mb-10 text-center px-2"
           >
-            24×7 Local, Airport & Outstation Taxi Services with Professional Drivers,
-            Comfortable Vehicles, and Transparent Pricing.
+            24×7 Local & Outstation Taxi Services Available in VIJAYAWADA & GUNTUR
           </motion.p>
 
           {/* Booking Action CTAs */}
@@ -171,7 +170,7 @@ export default function Hero() {
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 w-full max-w-md sm:max-w-none"
           >
             <a
-              href="https://wa.me/917036281999?text=Hello%20Peram%20Brothers%20Car%20Travels,%20I'd%20like%20to%20book%20a%20cab.%20Please%20provide%20availability%20and%20rates."
+              href="https://wa.me/917095281999?text=Hello%20Peram%20Brothers%20Car%20Travels,%20I'd%20like%20to%20book%20a%20cab.%20Please%20provide%20availability%20and%20rates."
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto flex items-center justify-center space-x-3 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-base px-8 py-4 rounded-full shadow-lg hover:shadow-emerald-600/30 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-0.5"
@@ -180,7 +179,7 @@ export default function Hero() {
               <span>Book on WhatsApp</span>
             </a>
             <a
-              href="tel:7036281999"
+              href="tel:7095281999"
               className="w-full sm:w-auto flex items-center justify-center space-x-3 bg-white/10 hover:bg-white text-white hover:text-dark border border-white/30 hover:border-white font-bold text-base px-8 py-4 rounded-full shadow-xs hover:shadow-md transition-all duration-300 transform hover:-translate-y-0.5 backdrop-blur-xs"
             >
               <Phone className="w-5 h-5" />

@@ -79,15 +79,6 @@ export default function Footer() {
             </h4>
             <div className="space-y-3">
               <a
-                href="tel:7036281999"
-                className="flex items-center space-x-3 text-sm text-gray-400 hover:text-white transition-all group"
-              >
-                <div className="p-2 bg-gray-800 rounded-lg group-hover:bg-blue-600 transition-colors">
-                  <Phone className="w-4 h-4 text-blue-400 group-hover:text-white" />
-                </div>
-                <span className="font-bold">+91 70362 81999</span>
-              </a>
-              <a
                 href="tel:7095281999"
                 className="flex items-center space-x-3 text-sm text-gray-400 hover:text-white transition-all group"
               >
@@ -95,6 +86,15 @@ export default function Footer() {
                   <Phone className="w-4 h-4 text-blue-400 group-hover:text-white" />
                 </div>
                 <span className="font-bold">+91 70952 81999</span>
+              </a>
+              <a
+                href="tel:7036281999"
+                className="flex items-center space-x-3 text-sm text-gray-400 hover:text-white transition-all group"
+              >
+                <div className="p-2 bg-gray-800 rounded-lg group-hover:bg-blue-600 transition-colors">
+                  <Phone className="w-4 h-4 text-blue-400 group-hover:text-white" />
+                </div>
+                <span className="font-bold">+91 70362 81999</span>
               </a>
             </div>
           </div>

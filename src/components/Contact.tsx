@@ -94,20 +94,6 @@ export default function Contact() {
               
               {/* Call Number 1 */}
               <a
-                href="tel:7036281999"
-                className="glow-card flex items-center space-x-4 p-5 rounded-2xl border border-gray-100 hover:border-primary/30 bg-gray-50/50 hover:bg-white transition-all duration-300 shadow-2xs hover:shadow-md"
-              >
-                <div className="p-3 bg-blue-50 rounded-xl text-primary">
-                  <Phone className="w-5 h-5" />
-                </div>
-                <div>
-                  <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest block">Primary Call</span>
-                  <span className="text-base font-extrabold text-dark">+91 70362 81999</span>
-                </div>
-              </a>
-
-              {/* Call Number 2 */}
-              <a
                 href="tel:7095281999"
                 className="glow-card flex items-center space-x-4 p-5 rounded-2xl border border-gray-100 hover:border-primary/30 bg-gray-50/50 hover:bg-white transition-all duration-300 shadow-2xs hover:shadow-md"
               >
@@ -115,8 +101,22 @@ export default function Contact() {
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
-                  <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest block">Secondary Call</span>
+                  <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest block">Primary Call</span>
                   <span className="text-base font-extrabold text-dark">+91 70952 81999</span>
+                </div>
+              </a>
+
+              {/* Call Number 2 */}
+              <a
+                href="tel:7036281999"
+                className="glow-card flex items-center space-x-4 p-5 rounded-2xl border border-gray-100 hover:border-primary/30 bg-gray-50/50 hover:bg-white transition-all duration-300 shadow-2xs hover:shadow-md"
+              >
+                <div className="p-3 bg-blue-50 rounded-xl text-primary">
+                  <Phone className="w-5 h-5" />
+                </div>
+                <div>
+                  <span className="text-[10px] font-bold text-gray-400 uppercase tracking-widest block">Secondary Call</span>
+                  <span className="text-base font-extrabold text-dark">+91 70362 81999</span>
                 </div>
               </a>
 
@@ -128,7 +128,7 @@ export default function Contact() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {/* WhatsApp operator 1 */}
                 <a
-                  href={getWhatsAppLink("7036281999")}
+                  href={getWhatsAppLink("7095281999")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center space-x-2.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm py-4 px-6 rounded-2xl shadow-xs hover:shadow-md transition-all duration-300"
@@ -139,7 +139,7 @@ export default function Contact() {
 
                 {/* WhatsApp operator 2 */}
                 <a
-                  href={getWhatsAppLink("7095281999")}
+                  href={getWhatsAppLink("7036281999")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center space-x-2.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-sm py-4 px-6 rounded-2xl shadow-xs hover:shadow-md transition-all duration-300"

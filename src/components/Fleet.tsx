@@ -77,7 +77,7 @@ export default function Fleet() {
 
   const getWhatsAppLink = (vehicleName: string) => {
     const text = `Hello Peram Brothers Car Travels, I am looking to book the ${vehicleName}. Please let me know the tariff and availability.`;
-    return `https://wa.me/917036281999?text=${encodeURIComponent(text)}`;
+    return `https://wa.me/917095281999?text=${encodeURIComponent(text)}`;
   };
 
   return (

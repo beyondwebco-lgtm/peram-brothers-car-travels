@@ -25,7 +25,7 @@ export default function FeaturedRoutes() {
 
   const getWhatsAppLink = (route: string, vehicle: string, price: string) => {
     const text = `Hello Peram Brothers Car Travels, I am interested in booking the ${vehicle} for the ${route} trip (Starting Price: ${price}). Please check availability and confirm details.`;
-    return `https://wa.me/917036281999?text=${encodeURIComponent(text)}`;
+    return `https://wa.me/917095281999?text=${encodeURIComponent(text)}`;
   };
 
   return (
