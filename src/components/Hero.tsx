@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { MessageCircle, Phone, Clock, Compass, Navigation, Plane, Sparkles, ArrowDown } from "lucide-react";
+import { MessageCircle, Phone, Sparkles } from "lucide-react";
 
 export default function Hero() {
   const heroRef = useRef<HTMLElement>(null);
@@ -63,21 +63,6 @@ export default function Hero() {
     },
   };
 
-  const badgeVariants = {
-    hidden: { opacity: 0, y: 15 },
-    visible: (custom: number) => ({
-      opacity: 1,
-      y: 0,
-      transition: { duration: 0.5, ease: "easeOut" as const, delay: 1.0 + custom * 0.1 },
-    }),
-  };
-
-  const trustBadges = [
-    { icon: Clock, text: "Local Rental Packages" },
-    { icon: Plane, text: "Airport Pickup Drops" },
-    { icon: Compass, text: "Outstation Round Trips" },
-    { icon: Navigation, text: "On Way Drop Services" },
-  ];
 
   return (
     <section
@@ -187,24 +172,6 @@ export default function Hero() {
             </a>
           </motion.div>
 
-          {/* Elegant Glassmorphism Badges */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full max-w-4xl px-4">
-            {trustBadges.map((badge, idx) => (
-              <motion.div
-                key={idx}
-                custom={idx}
-                variants={badgeVariants}
-                className="flex items-center justify-center space-x-2.5 px-4 py-3 bg-white/5 backdrop-blur-md rounded-2xl border border-white/10 hover:bg-white/10 transition-colors duration-300"
-              >
-                <div className="p-1.5 bg-blue-500/20 text-blue-300 rounded-lg flex items-center justify-center">
-                  <badge.icon className="w-4 h-4" />
-                </div>
-                <span className="text-xs sm:text-sm font-semibold text-white tracking-wide">
-                  {badge.text}
-                </span>
-              </motion.div>
-            ))}
-          </div>
         </motion.div>
       </div>
 
