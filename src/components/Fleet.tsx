@@ -12,6 +12,7 @@ interface Vehicle {
   ac: string;
   luggage: string;
   comfort: number;
+  price: string;
   featured?: boolean;
 }
 
@@ -25,6 +26,7 @@ export default function Fleet() {
       ac: "AC Available",
       luggage: "2 Bags",
       comfort: 4.5,
+      price: "₹5,999",
     },
     {
       name: "Toyota Etios",
@@ -34,6 +36,7 @@ export default function Fleet() {
       ac: "AC Available",
       luggage: "3 Bags",
       comfort: 4.6,
+      price: "₹6,499",
     },
     {
       name: "New Ertiga",
@@ -43,6 +46,7 @@ export default function Fleet() {
       ac: "Dual AC",
       luggage: "3 Bags",
       comfort: 4.7,
+      price: "₹7,999",
       featured: true,
     },
     {
@@ -53,6 +57,7 @@ export default function Fleet() {
       ac: "Automatic AC",
       luggage: "4 Bags",
       comfort: 4.8,
+      price: "₹8,999",
     },
     {
       name: "Toyota Innova",
@@ -62,6 +67,7 @@ export default function Fleet() {
       ac: "Dual AC",
       luggage: "5 Bags",
       comfort: 4.8,
+      price: "₹8,999",
     },
     {
       name: "Toyota Innova Crysta",
@@ -71,12 +77,13 @@ export default function Fleet() {
       ac: "Climate Control",
       luggage: "6 Bags",
       comfort: 4.9,
+      price: "₹9,999",
       featured: true,
     },
   ];
 
-  const getWhatsAppLink = (vehicleName: string) => {
-    const text = `Hello Peram Brothers Car Travels, I am looking to book the ${vehicleName}. Please let me know the tariff and availability.`;
+  const getWhatsAppLink = (vehicleName: string, price: string) => {
+    const text = `Hello Peram Brothers Car Travels, I am interested in booking the ${vehicleName} (Starting Fare: ${price}). Please check availability and confirm details.`;
     return `https://wa.me/917095281999?text=${encodeURIComponent(text)}`;
   };
 
@@ -136,8 +143,14 @@ export default function Fleet() {
 
                 {/* Specs Box */}
                 <div className="p-6">
-                  <div className="flex justify-between items-center mb-4">
-                    <h3 className="text-xl font-bold text-dark">{vehicle.name}</h3>
+                  <div className="flex justify-between items-start mb-4">
+                    <div>
+                      <h3 className="text-xl font-bold text-dark">{vehicle.name}</h3>
+                      <div className="flex items-baseline space-x-1.5 mt-1">
+                        <span className="text-xl font-black text-primary">{vehicle.price}</span>
+                        <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider">Starting Fare</span>
+                      </div>
+                    </div>
                     <div className="flex items-center space-x-1 text-amber-500 bg-amber-50/50 border border-amber-100/50 px-2.5 py-1 rounded-lg">
                       <Star className="w-3.5 h-3.5 fill-current" />
                       <span className="text-xs font-bold">{vehicle.comfort}</span>
@@ -166,7 +179,7 @@ export default function Fleet() {
 
               <div className="px-6 pb-6 pt-0">
                 <a
-                  href={getWhatsAppLink(vehicle.name)}
+                  href={getWhatsAppLink(vehicle.name, vehicle.price)}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-2xl flex items-center justify-center space-x-2 font-bold text-sm shadow-xs hover:shadow-md transition-all duration-300"
@@ -177,6 +190,13 @@ export default function Fleet() {
               </div>
             </motion.div>
           ))}
+        </div>
+
+        {/* Additional Route Notice */}
+        <div className="text-center mt-12">
+          <p className="text-xs text-gray-400 font-semibold uppercase tracking-widest">
+            * Prices are inclusive of all Toll Gates, State Taxes, and Driver Allowances.
+          </p>
         </div>
 
       </div>

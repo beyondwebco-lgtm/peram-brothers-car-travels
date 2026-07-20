@@ -1,6 +1,5 @@
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
-import FeaturedRoutes from "@/components/FeaturedRoutes";
 import Fleet from "@/components/Fleet";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import HowItWorks from "@/components/HowItWorks";
@@ -12,7 +11,6 @@ export default function Home() {
     <>
       <Hero />
       <Services />
-      <FeaturedRoutes />
       <Fleet />
       <WhyChooseUs />
       <HowItWorks />

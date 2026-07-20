@@ -55,11 +55,6 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#routes" className="text-sm text-gray-400 hover:text-white transition-colors">
-                  Popular Routes
-                </a>
-              </li>
-              <li>
                 <a href="#why-choose-us" className="text-sm text-gray-400 hover:text-white transition-colors">
                   Why Choose Us
                 </a>
