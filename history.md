@@ -10,7 +10,8 @@ This file records all modifications made to the Peram Brothers Car Travels codeb
   * Completely removed the original `"Luxury Transportation Service"` tagline text and badge.
   * Added a new prominent route & price offer block for **Vijayawada 🔁 Hyderabad** (Starting at **₹5,999**).
   * Relocated this route/price offer block to be directly **below** the main brand heading (`PERAM BROTHER'S Car Travels`) and **above** the description.
-  * Styled the offer block as a premium glassmorphic card (`bg-white/5 backdrop-blur border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)]`) with the route name in bold uppercase (`VIJAYAWADA 🔁 HYDERABAD`) and the price label in uppercase (`PRICES STARTING FROM JUST`) with slightly increased sizes.
+  * Styled the offer block as a premium glassmorphic card (`bg-white/5 backdrop-blur border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)]`) with the route name in bold uppercase (`VIJAYAWADA 🔁 HYDERABAD`) and the price label in uppercase (`PRICES STARTING FROM JUST`).
+  * Decreased route text size specifically for mobile screen dimensions from `text-2xl` to `text-lg` to prevent wrapping issues, while preserving the larger desktop scaling (`text-lg sm:text-3xl lg:text-4xl`).
   * Highlighted the price ₹5,999 in a larger primary blue badge (`bg-primary text-white text-base sm:text-lg lg:text-xl`).
 
 ### 2. Fleet Cards Route & Fare Info Update

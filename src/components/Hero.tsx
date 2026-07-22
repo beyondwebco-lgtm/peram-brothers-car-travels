@@ -138,7 +138,7 @@ export default function Hero() {
             className="w-full max-w-xl mx-auto mb-8 mt-2 p-6 sm:p-7 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] flex flex-col items-center justify-center text-center space-y-4"
           >
             {/* VIJAYAWADA 🔁 HYDERABAD Route */}
-            <div className="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight text-white flex items-center justify-center gap-2 flex-wrap">
+            <div className="text-lg sm:text-3xl lg:text-4xl font-black tracking-tight text-white flex items-center justify-center gap-2 flex-wrap">
               <span>VIJAYAWADA</span>
               <span className="text-primary font-normal px-1">🔁</span>
               <span>HYDERABAD</span>
