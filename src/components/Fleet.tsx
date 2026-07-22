@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { MessageCircle, Users, Briefcase, Snowflake, Star, Award, ArrowLeftRight } from "lucide-react";
+import { MessageCircle, Users, Briefcase, Snowflake, Star, Award } from "lucide-react";
 import Image from "next/image";
 
 interface Vehicle {
@@ -149,8 +149,7 @@ export default function Fleet() {
                   {/* Route & Rating Row */}
                   <div className="flex justify-between items-center mb-3">
                     {/* Route Info Badge */}
-                    <div className="flex items-center space-x-1.5 bg-blue-50/70 border border-blue-100/50 px-2.5 py-1 rounded-xl text-primary text-xs font-bold w-fit">
-                      <ArrowLeftRight className="w-3 h-3 text-primary" />
+                    <div className="flex items-center bg-blue-50/70 border border-blue-100/50 px-2.5 py-1 rounded-xl text-primary text-xs font-bold w-fit">
                       <span>Vijayawada ↔ Hyderabad</span>
                     </div>
 
