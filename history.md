@@ -16,7 +16,7 @@ This file records all modifications made to the Peram Brothers Car Travels codeb
 ### 2. Fleet Cards Route & Fare Info Update
 * **File Modified**: `src/components/Fleet.tsx`
 * **Changes**:
-  * Added a clean **Vijayawada ↔ Hyderabad** route badge (styled in light-blue `bg-blue-50/70 border border-blue-100/50`) directly below the vehicle name on all catalog cards (omitting icons to keep it simple and clean).
+  * Added a clean, capitalized **VIJAYAWADA ↔ HYDERABAD** route badge (styled in light-blue `bg-blue-50/70 border border-blue-100/50`) directly below the vehicle name on all catalog cards (omitting icons to keep it simple and clean).
   * Repositioned the **Comfort Rating** (e.g., `4.5 ⭐`) to the right of the route badge on the same row.
   * Moved the **Starting Fare** display (price and label) to its own row below the route/rating row and centered it horizontally (`justify-center`).
   * Updated the `getWhatsAppLink()` function to generate a route-specific WhatsApp booking message:
