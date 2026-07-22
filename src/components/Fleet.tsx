@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { MessageCircle, Users, Briefcase, Snowflake, Star, Award } from "lucide-react";
+import { MessageCircle, Users, Briefcase, Snowflake, Star, Award, ArrowLeftRight } from "lucide-react";
 import Image from "next/image";
 
 interface Vehicle {
@@ -83,7 +83,7 @@ export default function Fleet() {
   ];
 
   const getWhatsAppLink = (vehicleName: string, price: string) => {
-    const text = `Hello Peram Brothers Car Travels, I am interested in booking the ${vehicleName} (Starting Fare: ${price}). Please check availability and confirm details.`;
+    const text = `Hello Peram Brothers Car Travels, I am interested in booking the ${vehicleName} for the Vijayawada ↔ Hyderabad route (Starting Fare: ${price}). Please check availability and confirm the travel details.`;
     return `https://wa.me/917095281999?text=${encodeURIComponent(text)}`;
   };
 
@@ -143,18 +143,28 @@ export default function Fleet() {
 
                 {/* Specs Box */}
                 <div className="p-6">
-                  <div className="flex justify-between items-start mb-4">
-                    <div>
-                      <h3 className="text-xl font-bold text-dark">{vehicle.name}</h3>
-                      <div className="flex items-baseline space-x-1.5 mt-1">
-                        <span className="text-xl font-black text-primary">{vehicle.price}</span>
-                        <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider">Starting Fare</span>
-                      </div>
+                  {/* Vehicle Name */}
+                  <h3 className="text-xl font-bold text-dark mb-2.5">{vehicle.name}</h3>
+
+                  {/* Route & Rating Row */}
+                  <div className="flex justify-between items-center mb-3">
+                    {/* Route Info Badge */}
+                    <div className="flex items-center space-x-1.5 bg-blue-50/70 border border-blue-100/50 px-2.5 py-1 rounded-xl text-primary text-xs font-bold w-fit">
+                      <ArrowLeftRight className="w-3 h-3 text-primary" />
+                      <span>Vijayawada ↔ Hyderabad</span>
                     </div>
-                    <div className="flex items-center space-x-1 text-amber-500 bg-amber-50/50 border border-amber-100/50 px-2.5 py-1 rounded-lg">
+
+                    {/* Comfort Rating */}
+                    <div className="flex items-center space-x-1 text-amber-500 bg-amber-50/50 border border-amber-100/50 px-2.5 py-1 rounded-lg shrink-0">
                       <Star className="w-3.5 h-3.5 fill-current" />
                       <span className="text-xs font-bold">{vehicle.comfort}</span>
                     </div>
+                  </div>
+
+                  {/* Starting Fare Row */}
+                  <div className="flex items-baseline justify-center space-x-1.5 mb-4">
+                    <span className="text-xl font-black text-primary">{vehicle.price}</span>
+                    <span className="text-[10px] font-semibold text-gray-400 uppercase tracking-wider">Starting Fare</span>
                   </div>
 
                   <div className="grid grid-cols-3 gap-3 border-t border-b border-gray-100 py-4 mb-6">

@@ -116,24 +116,6 @@ export default function Hero() {
           animate="visible"
           className="flex flex-col items-center"
         >
-          {/* Route and Price Offer */}
-          <motion.div
-            variants={lineVariants}
-            className="flex flex-col items-center gap-2 sm:gap-3 mb-6"
-          >
-            {/* Vijayawada ↔ Hyderabad Route */}
-            <div className="inline-flex items-center space-x-2.5 bg-white/10 backdrop-blur-md border border-white/20 px-5 py-2 rounded-full text-blue-200 font-bold text-sm sm:text-base tracking-wider uppercase">
-              <Sparkles className="w-4 h-4 text-blue-400" />
-              <span>Vijayawada ↔ Hyderabad</span>
-            </div>
-
-            {/* Prices Starting From Just ₹5,999 */}
-            <span className="text-xs sm:text-sm font-semibold tracking-wider uppercase text-emerald-400">
-              Prices Starting From Just <span className="font-extrabold text-sm sm:text-base text-white">₹5,999</span>
-            </span>
-          </motion.div>
-
-
           {/* Centered Large Headline - Reveals line-by-line */}
           <div className="overflow-hidden mb-6">
             <motion.h1
@@ -149,6 +131,27 @@ export default function Hero() {
               Car Travels
             </motion.h1>
           </div>
+
+          {/* Route & Price Offer Card */}
+          <motion.div
+            variants={lineVariants}
+            className="w-full max-w-lg mx-auto mb-8 mt-2 p-5 sm:p-6 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] flex flex-col items-center justify-center text-center space-y-3"
+          >
+            {/* Vijayawada ↔ Hyderabad Route */}
+            <div className="text-xl sm:text-2xl lg:text-3xl font-extrabold tracking-tight text-white flex items-center justify-center gap-2 flex-wrap">
+              <span>Vijayawada</span>
+              <span className="text-primary font-normal px-1">↔</span>
+              <span>Hyderabad</span>
+            </div>
+
+            {/* Prices Starting From Just ₹5,999 */}
+            <div className="text-xs sm:text-sm font-semibold tracking-wider uppercase text-gray-300 flex items-center justify-center flex-wrap gap-2">
+              <span>Prices Starting From Just</span>
+              <span className="bg-primary text-white font-extrabold text-sm sm:text-base px-3 py-1 rounded-full shadow-[0_0_15px_rgba(37,99,235,0.4)] tracking-normal normal-case">
+                ₹5,999
+              </span>
+            </div>
+          </motion.div>
 
           {/* Centered Subtext */}
           <motion.p
