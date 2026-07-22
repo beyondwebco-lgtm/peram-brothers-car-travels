@@ -19,7 +19,7 @@ interface Vehicle {
 export default function Fleet() {
   const vehicles: Vehicle[] = [
     {
-      name: "NEW DZIRE 4+1 AC",
+      name: "NEW DZIRE (4+1 AC)",
       category: "Compact Sedan",
       image: "/dzire.png",
       capacity: "4+1 Seats",
@@ -29,7 +29,7 @@ export default function Fleet() {
       price: "₹5,999",
     },
     {
-      name: "TOYOTA ETIOS 4+1 AC",
+      name: "TOYOTA ETIOS (4+1 AC)",
       category: "Comfort Sedan",
       image: "/etios.jpg",
       capacity: "4+1 Seats",
@@ -39,7 +39,7 @@ export default function Fleet() {
       price: "₹6,499",
     },
     {
-      name: "NEW ERTIGA 6+1 AC",
+      name: "NEW ERTIGA (6+1 AC)",
       category: "Comfort Family MPV",
       image: "/ertiga.png",
       capacity: "6+1 Seats",
@@ -50,7 +50,7 @@ export default function Fleet() {
       featured: true,
     },
     {
-      name: "KIA CARENS 6+1 AC",
+      name: "KIA CARENS (6+1 AC)",
       category: "Premium Family MPV",
       image: "/kia-carens.jpg",
       capacity: "6+1 Seats",
@@ -60,7 +60,7 @@ export default function Fleet() {
       price: "₹8,999",
     },
     {
-      name: "TOYOTA INNOVA 7+1 AC",
+      name: "TOYOTA INNOVA (7+1 AC)",
       category: "Executive Touring Vehicle",
       image: "/toyota-innova.jpg",
       capacity: "7+1 Seats",
@@ -70,7 +70,7 @@ export default function Fleet() {
       price: "₹8,999",
     },
     {
-      name: "TOYOTA CRYSTA 7+1 AC",
+      name: "TOYOTA CRYSTA (7+1 AC)",
       category: "Premium Luxury MPV",
       image: "/innova-crysta.webp",
       capacity: "7+1 Seats",
