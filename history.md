@@ -16,10 +16,11 @@ This file records all modifications made to the Peram Brothers Car Travels codeb
 ### 2. Fleet Cards Route & Fare Info Update
 * **File Modified**: `src/components/Fleet.tsx`
 * **Changes**:
-  * Added a clean, capitalized **VIJAYAWADA ↔ HYDERABAD** route badge (styled in light-blue `bg-blue-50/70 border border-blue-100/50`) directly below the vehicle name on all catalog cards (omitting icons to keep it simple and clean).
-  * Repositioned the **Comfort Rating** (e.g., `4.5 ⭐`) to the right of the route badge on the same row.
+  * Added a clean, capitalized **VIJAYAWADA ↔ HYDERABAD** route badge (styled in light-blue `bg-blue-50/70 border border-blue-100/50`) directly below the vehicle name on all catalog cards, setting the text size to match the vehicle name (using responsive `text-lg sm:text-xl` font sizing with balanced padding).
+  * Repositioned the **Comfort Rating** (e.g., `4.5 ⭐`) to the right of the route badge on the same row, enabling flex-wrapping for smaller screen responsiveness.
   * Moved the **Starting Fare** display (price and label) to its own row below the route/rating row and centered it horizontally (`justify-center`).
   * Renamed the vehicle `"New Swift Dzire"` to `"NEW DZIRE"` and capitalized all other vehicle names inside the dataset (e.g., `TOYOTA ETIOS`, `NEW ERTIGA`, `KIA CARENS`, `TOYOTA INNOVA`, `TOYOTA INNOVA CRYSTA`).
+  * Copied `toyota innova.jpeg` from the root workspace directory to `public/toyota-innova.jpg` and updated the image path reference for the `"TOYOTA INNOVA"` card in the dataset.
   * Updated the `getWhatsAppLink()` function to generate a route-specific WhatsApp booking message:
     ```typescript
     const text = `Hello Peram Brothers Car Travels, I am interested in booking the ${vehicleName} for the Vijayawada ↔ Hyderabad route (Starting Fare: ${price}). Please check availability and confirm the travel details.`;

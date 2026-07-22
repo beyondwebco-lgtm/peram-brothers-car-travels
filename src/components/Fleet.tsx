@@ -62,7 +62,7 @@ export default function Fleet() {
     {
       name: "TOYOTA INNOVA",
       category: "Executive Touring Vehicle",
-      image: "/innova.jpg",
+      image: "/toyota-innova.jpg",
       capacity: "7+1 Seats",
       ac: "Dual AC",
       luggage: "5 Bags",
@@ -144,12 +144,12 @@ export default function Fleet() {
                 {/* Specs Box */}
                 <div className="p-6">
                   {/* Vehicle Name */}
-                  <h3 className="text-xl font-bold text-dark mb-2.5">{vehicle.name}</h3>
+                  <h3 className="text-lg sm:text-xl font-bold text-dark mb-2.5">{vehicle.name}</h3>
 
                   {/* Route & Rating Row */}
-                  <div className="flex justify-between items-center mb-3">
+                  <div className="flex justify-between items-center mb-3 flex-wrap gap-2">
                     {/* Route Info Badge */}
-                    <div className="flex items-center bg-blue-50/70 border border-blue-100/50 px-2.5 py-1 rounded-xl text-primary text-xs font-bold w-fit">
+                    <div className="flex items-center bg-blue-50/70 border border-blue-100/50 px-3 py-1.5 rounded-xl text-primary text-lg sm:text-xl font-bold w-fit">
                       <span>VIJAYAWADA ↔ HYDERABAD</span>
                     </div>
 
