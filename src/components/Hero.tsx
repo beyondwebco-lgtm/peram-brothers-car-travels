@@ -116,14 +116,23 @@ export default function Hero() {
           animate="visible"
           className="flex flex-col items-center"
         >
-          {/* Tagline */}
+          {/* Route and Price Offer */}
           <motion.div
             variants={lineVariants}
-            className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-md border border-white/20 px-4 py-1.5 rounded-full text-blue-200 font-semibold text-xs tracking-wider uppercase mb-6"
+            className="flex flex-col items-center gap-2 sm:gap-3 mb-6"
           >
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>Luxury Transportation Service</span>
+            {/* Vijayawada ↔ Hyderabad Route */}
+            <div className="inline-flex items-center space-x-2.5 bg-white/10 backdrop-blur-md border border-white/20 px-5 py-2 rounded-full text-blue-200 font-bold text-sm sm:text-base tracking-wider uppercase">
+              <Sparkles className="w-4 h-4 text-blue-400" />
+              <span>Vijayawada ↔ Hyderabad</span>
+            </div>
+
+            {/* Prices Starting From Just ₹5,999 */}
+            <span className="text-xs sm:text-sm font-semibold tracking-wider uppercase text-emerald-400">
+              Prices Starting From Just <span className="font-extrabold text-sm sm:text-base text-white">₹5,999</span>
+            </span>
           </motion.div>
+
 
           {/* Centered Large Headline - Reveals line-by-line */}
           <div className="overflow-hidden mb-6">
