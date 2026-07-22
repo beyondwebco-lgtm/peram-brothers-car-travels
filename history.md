@@ -19,6 +19,7 @@ This file records all modifications made to the Peram Brothers Car Travels codeb
   * Added a clean, capitalized **VIJAYAWADA ↔ HYDERABAD** route badge (styled in light-blue `bg-blue-50/70 border border-blue-100/50`) directly below the vehicle name on all catalog cards (omitting icons to keep it simple and clean).
   * Repositioned the **Comfort Rating** (e.g., `4.5 ⭐`) to the right of the route badge on the same row.
   * Moved the **Starting Fare** display (price and label) to its own row below the route/rating row and centered it horizontally (`justify-center`).
+  * Renamed the vehicle `"New Swift Dzire"` to `"NEW DZIRE"` and capitalized all other vehicle names inside the dataset (e.g., `TOYOTA ETIOS`, `NEW ERTIGA`, `KIA CARENS`, `TOYOTA INNOVA`, `TOYOTA INNOVA CRYSTA`).
   * Updated the `getWhatsAppLink()` function to generate a route-specific WhatsApp booking message:
     ```typescript
     const text = `Hello Peram Brothers Car Travels, I am interested in booking the ${vehicleName} for the Vijayawada ↔ Hyderabad route (Starting Fare: ${price}). Please check availability and confirm the travel details.`;
