@@ -27,6 +27,7 @@ This file records all modifications made to the Peram Brothers Car Travels codeb
     * `"Toyota Innova"` → `"TOYOTA INNOVA 7+1 AC"`
     * `"Toyota Innova Crysta"` → `"TOYOTA CRYSTA 7+1 AC"`
   * Copied `toyota innova.jpeg` from the root workspace directory to `public/toyota-innova.jpg` and updated the image path reference for the `"TOYOTA INNOVA 7+1 AC"` card in the dataset.
+  * Copied `innova crysta.webp` from the root workspace directory to `public/innova-crysta.webp` to update the asset for the `"TOYOTA CRYSTA 7+1 AC"` card and Hero poster fallback.
   * Updated the `getWhatsAppLink()` function to generate a route-specific WhatsApp booking message:
     ```typescript
     const text = `Hello Peram Brother's Car Travels, I am interested in booking the ${vehicleName} for the Vijayawada 🔁 Hyderabad route (Starting Fare: ${price}). Please check availability and confirm the travel details.`;
