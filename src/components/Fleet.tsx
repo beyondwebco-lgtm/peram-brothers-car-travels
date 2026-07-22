@@ -150,7 +150,7 @@ export default function Fleet() {
                   <div className="flex justify-between items-center mb-3">
                     {/* Route Info Badge */}
                     <div className="flex items-center bg-blue-50/70 border border-blue-100/50 px-2.5 py-1 rounded-xl text-primary text-xs font-bold w-fit">
-                      <span>Vijayawada ↔ Hyderabad</span>
+                      <span>VIJAYAWADA ↔ HYDERABAD</span>
                     </div>
 
                     {/* Comfort Rating */}
