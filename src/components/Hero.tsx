@@ -90,7 +90,7 @@ export default function Hero() {
           {/* Fallback image if video is not supported */}
           <img
             src="/innova-crysta.webp"
-            alt="Peram Brothers travels cab service"
+            alt="Peram Brother's travels cab service"
             className="w-full h-full object-cover"
           />
         </video>
@@ -137,10 +137,10 @@ export default function Hero() {
             variants={lineVariants}
             className="w-full max-w-xl mx-auto mb-8 mt-2 p-6 sm:p-7 rounded-2xl bg-white/5 backdrop-blur-md border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] flex flex-col items-center justify-center text-center space-y-4"
           >
-            {/* VIJAYAWADA ↔ HYDERABAD Route */}
+            {/* VIJAYAWADA 🔁 HYDERABAD Route */}
             <div className="text-2xl sm:text-3xl lg:text-4xl font-black tracking-tight text-white flex items-center justify-center gap-2 flex-wrap">
               <span>VIJAYAWADA</span>
-              <span className="text-primary font-normal px-1">↔</span>
+              <span className="text-primary font-normal px-1">🔁</span>
               <span>HYDERABAD</span>
             </div>
 
@@ -167,7 +167,7 @@ export default function Hero() {
             className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16 w-full max-w-md sm:max-w-none"
           >
             <a
-              href="https://wa.me/917095281999?text=Hello%20Peram%20Brothers%20Car%20Travels,%20I'd%20like%20to%20book%20a%20cab.%20Please%20provide%20availability%20and%20rates."
+              href="https://wa.me/917095281999?text=Hello%20Peram%20Brother%27s%20Car%20Travels,%20I'd%20like%20to%20book%20a%20cab.%20Please%20provide%20availability%20and%20rates."
               target="_blank"
               rel="noopener noreferrer"
               className="w-full sm:w-auto flex items-center justify-center space-x-3 bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-base px-8 py-4 rounded-full shadow-lg hover:shadow-emerald-600/30 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-0.5"

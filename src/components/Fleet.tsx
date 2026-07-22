@@ -19,7 +19,7 @@ interface Vehicle {
 export default function Fleet() {
   const vehicles: Vehicle[] = [
     {
-      name: "NEW DZIRE",
+      name: "NEW DZIRE 4+1 AC",
       category: "Compact Sedan",
       image: "/dzire.png",
       capacity: "4+1 Seats",
@@ -29,7 +29,7 @@ export default function Fleet() {
       price: "₹5,999",
     },
     {
-      name: "TOYOTA ETIOS",
+      name: "TOYOTA ETIOS 4+1 AC",
       category: "Comfort Sedan",
       image: "/etios.jpg",
       capacity: "4+1 Seats",
@@ -39,7 +39,7 @@ export default function Fleet() {
       price: "₹6,499",
     },
     {
-      name: "NEW ERTIGA",
+      name: "NEW ERTIGA 6+1 AC",
       category: "Comfort Family MPV",
       image: "/ertiga.png",
       capacity: "6+1 Seats",
@@ -50,7 +50,7 @@ export default function Fleet() {
       featured: true,
     },
     {
-      name: "KIA CARENS",
+      name: "KIA CARENS 6+1 AC",
       category: "Premium Family MPV",
       image: "/kia-carens.jpg",
       capacity: "6+1 Seats",
@@ -60,7 +60,7 @@ export default function Fleet() {
       price: "₹8,999",
     },
     {
-      name: "TOYOTA INNOVA",
+      name: "TOYOTA INNOVA 7+1 AC",
       category: "Executive Touring Vehicle",
       image: "/toyota-innova.jpg",
       capacity: "7+1 Seats",
@@ -70,7 +70,7 @@ export default function Fleet() {
       price: "₹8,999",
     },
     {
-      name: "TOYOTA INNOVA CRYSTA",
+      name: "TOYOTA CRYSTA 7+1 AC",
       category: "Premium Luxury MPV",
       image: "/innova-crysta.webp",
       capacity: "7+1 Seats",
@@ -83,7 +83,7 @@ export default function Fleet() {
   ];
 
   const getWhatsAppLink = (vehicleName: string, price: string) => {
-    const text = `Hello Peram Brothers Car Travels, I am interested in booking the ${vehicleName} for the Vijayawada ↔ Hyderabad route (Starting Fare: ${price}). Please check availability and confirm the travel details.`;
+    const text = `Hello Peram Brother's Car Travels, I am interested in booking the ${vehicleName} for the Vijayawada 🔁 Hyderabad route (Starting Fare: ${price}). Please check availability and confirm the travel details.`;
     return `https://wa.me/917095281999?text=${encodeURIComponent(text)}`;
   };
 
@@ -150,7 +150,7 @@ export default function Fleet() {
                   <div className="flex justify-between items-center mb-3 flex-wrap gap-2">
                     {/* Route Info Badge */}
                     <div className="flex items-center bg-blue-50/70 border border-blue-100/50 px-3 py-1.5 rounded-xl text-primary text-lg sm:text-xl font-bold w-fit">
-                      <span>VIJAYAWADA ↔ HYDERABAD</span>
+                      <span>VIJAYAWADA 🔁 HYDERABAD</span>
                     </div>
 
                     {/* Comfort Rating */}

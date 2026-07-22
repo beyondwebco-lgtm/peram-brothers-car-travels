@@ -25,7 +25,7 @@ export default function Footer() {
               </div>
               <div className="flex flex-col">
                 <span className="text-base font-bold tracking-tight text-white">
-                  PERAM BROTHERS
+                  PERAM BROTHER'S
                 </span>
                 <span className="text-[9px] text-gray-400 font-medium tracking-widest -mt-1">
                   CAR TRAVELS
@@ -99,7 +99,7 @@ export default function Footer() {
         {/* Bottom border & details */}
         <div className="mt-16 pt-8 border-t border-gray-800 flex flex-col sm:flex-row items-center justify-between gap-6">
           <p className="text-xs text-gray-500 text-center sm:text-left">
-            &copy; {currentYear} Peram Brothers Car Travels. All rights reserved. Managed by Peram Venkata Nagaraju.
+            &copy; {currentYear} Peram Brother's Car Travels. All rights reserved. Managed by Peram Venkata Nagaraju.
           </p>
 
           <button

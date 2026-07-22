@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Peram Brothers Car Travels | Premium Cab Service in Vijayawada & Guntur",
+  title: "Peram Brother's Car Travels | Premium Cab Service in Vijayawada & Guntur",
   description: "24/7 Premium Cab & Taxi Services in Vijayawada and Guntur. Book verified outstation cabs, one-way trips, and airport drop/pickup transfers to Hyderabad. Transparent flat-rate pricing, sanitized white vehicles, and professional drivers.",
   keywords: [
     "Cab Service Vijayawada",
@@ -24,10 +24,10 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Peram Brothers Car Travels | Reliable Cab Services in Vijayawada & Guntur",
+    title: "Peram Brother's Car Travels | Reliable Cab Services in Vijayawada & Guntur",
     description: "Book verified outstation cabs, airport drops, and local rentals in Vijayawada & Guntur. 24/7 service with professional drivers and clean white cars.",
     url: "https://perambrotherscartravels.com",
-    siteName: "Peram Brothers Car Travels",
+    siteName: "Peram Brother's Car Travels",
     locale: "en_IN",
     type: "website",
   },
@@ -46,7 +46,7 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "TaxiService",
-    "name": "Peram Brothers Car Travels",
+    "name": "Peram Brother's Car Travels",
     "description": "24/7 Premium Cab and Taxi Rental Service in Vijayawada and Guntur, Andhra Pradesh.",
     "url": "https://perambrotherscartravels.com",
     "telephone": "+917095281999",
@@ -66,7 +66,7 @@ export default function RootLayout({
     ],
     "provider": {
       "@type": "LocalBusiness",
-      "name": "Peram Brothers Car Travels",
+      "name": "Peram Brother's Car Travels",
       "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&q=80&w=800",
       "address": {
         "@type": "PostalAddress",

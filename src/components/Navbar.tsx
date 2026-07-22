@@ -42,7 +42,7 @@ export default function Navbar() {
                 <span className={`text-lg font-bold tracking-tight transition-colors duration-300 flex items-center ${
                   scrolled ? "text-dark" : "text-white"
                 }`}>
-                  PERAM BROTHERS
+                  PERAM BROTHER'S
                 </span>
                 <span className={`text-[10px] font-medium tracking-widest -mt-1 transition-colors duration-300 ${
                   scrolled ? "text-gray-500" : "text-white/70"

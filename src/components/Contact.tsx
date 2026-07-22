@@ -5,7 +5,7 @@ import { Phone, MessageCircle, MapPin, Mail, Clock, UserCheck } from "lucide-rea
 
 export default function Contact() {
   const getWhatsAppLink = (number: string) => {
-    const text = "Hello Peram Brothers Car Travels, I would like to book a cab. Please share rates and availability.";
+    const text = "Hello Peram Brother's Car Travels, I would like to book a cab. Please share rates and availability.";
     return `https://wa.me/91${number}?text=${encodeURIComponent(text)}`;
   };
 
@@ -38,7 +38,7 @@ export default function Contact() {
 
             <div>
               <span className="text-[10px] font-bold text-primary uppercase tracking-widest block mb-1">Travel Operator</span>
-              <h3 className="text-2xl font-extrabold text-dark mb-6">Peram Brothers Car Travels</h3>
+              <h3 className="text-2xl font-extrabold text-dark mb-6">Peram Brother's Car Travels</h3>
 
               {/* Owner card */}
               <div className="flex items-center space-x-3.5 bg-gray-50 p-4 rounded-2xl mb-8 border border-gray-100">
